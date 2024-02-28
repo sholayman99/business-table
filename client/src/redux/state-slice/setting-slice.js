@@ -9,10 +9,9 @@ const settingSlice = createSlice({
          showLoader:(state)=>{
             state.loader = "";
          },
-        hideLoader:(state)=>{
-            state.loader = "d-none";
-        },
-
+         hideLoader:(state)=>{
+            state.loader = 'd-none';
+         },
     }
 });
 

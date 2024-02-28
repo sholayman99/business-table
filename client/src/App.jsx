@@ -1,11 +1,12 @@
 import React from 'react';
 import ProductList from "./pages/ProductList.jsx";
+import Loader from "./components/loader/Loader.jsx";
 
 const App = () => {
     return (
         <div>
-           <h1>Welcome</h1>
             <ProductList />
+            <Loader />
         </div>
     );
 };
